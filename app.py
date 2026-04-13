@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify, render_template_string, Response, str
 import json
 
 app = Flask(__name__)
-VERSION = "2.1.0"
+VERSION = "2.2.0"
 
 df = pd.read_excel("MASTERv1f.xlsx", sheet_name="TABLA1")
 
