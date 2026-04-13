@@ -10,7 +10,7 @@ VERSION = "2.1.0"
 
 df = pd.read_excel("MASTERv1f.xlsx", sheet_name="TABLA1")
 
-client = anthropic.Anthropic(api_key="ANTHROPIC_API_KEY")
+client = anthropic.Anthropic(api_key="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")
 
 REGLAS = """
 Eres un sistema experto en codificación de instrumental quirúrgico.
